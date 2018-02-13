@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/about'
+
   resources :categories
   resources :sub_categories
   resources :ingredients
