@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :sub_categories
   resources :ingredients
   resources :recipes
   get 'recipes/index'
